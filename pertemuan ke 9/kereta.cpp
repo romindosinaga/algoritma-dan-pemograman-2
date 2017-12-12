@@ -2,8 +2,7 @@
 using namespace std;
 
 typedef struct { 
-	char nama[30]; //klw pakai tipe data string,panggil nya pakai getline 
-	char ktp[30];
+	char nama[30]; 
 	string alamat;
 	int umur;
 	char goldarah[2];
@@ -35,7 +34,7 @@ cout << "| SELAMAT DATANG DIPROGRAM PESAN TIKET KERETA API |" <<endl;
 cout << "===================================================" <<endl;
 
 penumpang A;// 
-	cout <<"Nama penumpang 	:";gets (A.nama);//getline
+	cout <<"Nama penumpang 	:";gets (A.nama);
 	cout <<"No ktp 		:";cin >> A.ktp;
 	cout <<"alamat		:";cin >> A.alamat;
 	cout <<"Umur 		:";cin >> A.umur;
@@ -92,55 +91,3 @@ return 0;
 
 
 
-//buat lah sebuah program tiket KA
-//input
-//nama penumpang 
-//no ktp
-//alamat
-//umur 
-//gol darah
-
-//asal 
-//tujuan 
-//jam
-//tanggal
-
-
-//selamat datang do program kareta api 
-//===================================
-//nama penumpang :record 
-//nama penumpang :
-//no ktp
-//alamat
-//umur 
-//gol darah
-
-//kepergian record
-//asal 
-//tujuan 
-//kereta
-
-//jam keberangkatan //record 
-	//jam 
-	//menit 
-	//detik
-//tanggal //recorc
-	//tgl
-	//hari 
-	//bulan 
-	//tahun
-//=======================================
-//cetak 
-	//tiket anda adalah 
-
-//nama penumpang :
-//no ktp
-//alamat
-//umur 
-//gol darah
-
-//asal 
-//tujuan 
-//jam keberangkatan : 17:50:30
-//tanggal
-//================================
